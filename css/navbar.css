@@ -1,0 +1,85 @@
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #0275d8; /* Change to your preferred color */
+            color: white;
+            padding: 10px;
+        }
+        .logo {
+            margin-right: 20px;
+            width: 88px;
+            height: 70px;
+            border-radius: 10px;
+        }
+
+        .menu-items {
+            display: flex;
+            align-items: center;
+            flex-grow: 1; /* Allow menu items to take available space */
+            justify-content: right;
+        }
+
+        .menu-items a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            padding: 10px;
+        }
+
+        .menu-items a:hover {
+            color: #ffc107; /* Change to your preferred hover color */
+        }
+
+        .profile-logo {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-left: auto; /* Push the profile logo to the right */
+            cursor: pointer;
+        }
+
+        .dropdown-btn{
+            position:relative;
+        }
+        
+        .dropdown-menu{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            display: none;
+            width: 100px;
+            right: 0px;
+            height: 80px;
+            padding: 0;
+        }
+        
+        .show{
+            display: block;
+        }
+        /* Media query for responsiveness */
+        @media screen and (max-width: 768px) {
+
+            
+            .menu-items {
+                display: none; /* Hide menu items on smaller screens */
+            }
+
+            .navbar {
+                justify-content: space-between; /* Align logo and profile on smaller screens */
+            }
+
+            .logo {
+                margin-right: 0;
+            }
+
+            .profile-logo {
+                margin-right: 20px; /* Add margin to the profile logo on smaller screens */
+            }
+        }

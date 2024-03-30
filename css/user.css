@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+.w-15{
+    width: 15%;
+}
+.h-screen{
+    height: 100vh;
+}
+.bg-black{
+    background-color: black;
+}
+
+.left-nav{
+    box-shadow: 0 5px 8px grey;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.w-85{
+    min-width: 85%;
+}
+.w-screen{
+    width: 100vw;
+}

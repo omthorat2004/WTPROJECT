@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-primary{
+    background-color: #3B71CA;
+}
+
+.gallery{
+    padding: 50px 100px;
+    height: 800px;
+}
+.gallery-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation :myAnimation 4s infinite;
+    border-radius: 30px;
+}
+@keyframes myAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.card-logo{
+    height: 50px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-28{
+    flex-basis: 28%;
+}
+.labs{
+    padding: 25px 100px;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.labs > div{
+    border: solid 1px #80808080;
+    outline: solid 1px #3B71CA;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.labs>div:hover{
+    box-shadow: 0px 3px 8px grey;
+    border: none;
+}
+
+.card-logo{
+    margin-bottom: 10px;
+}
+.map{
+    margin: 50px 0;
+    padding: 0 100px;
+}
+.map iframe{
+    width: 100%;
+}
+.home-padding{
+    padding: 0 160px;
+    margin-top: 20px;
+}
+
+.home-padding h2{
+    color: #3B71CA;
+}

@@ -1,0 +1,10 @@
+.input-field{
+    width:350px;
+    border:solid 1px black;
+    height: 50px;
+    margin: 2px 2px;
+}
+.input-field::placeholder{
+    color: black;
+    text-align: center;
+}
